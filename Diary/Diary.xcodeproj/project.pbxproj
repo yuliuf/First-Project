@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BF794619506802002CFBC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794519506802002CFBC2 /* Foundation.framework */; };
+		C2BF794819506802002CFBC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794719506802002CFBC2 /* CoreGraphics.framework */; };
+		C2BF794A19506802002CFBC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794919506802002CFBC2 /* UIKit.framework */; };
+		C2BF795019506802002CFBC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BF794E19506802002CFBC2 /* InfoPlist.strings */; };
+		C2BF795219506802002CFBC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF795119506802002CFBC2 /* main.m */; };
+		C2BF795819506802002CFBC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BF795719506802002CFBC2 /* Images.xcassets */; };
+		C2BF795F19506802002CFBC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF795E19506802002CFBC2 /* XCTest.framework */; };
+		C2BF796019506802002CFBC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794519506802002CFBC2 /* Foundation.framework */; };
+		C2BF796119506802002CFBC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794919506802002CFBC2 /* UIKit.framework */; };
+		C2BF796919506802002CFBC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BF796719506802002CFBC2 /* InfoPlist.strings */; };
+		C2BF796B19506802002CFBC2 /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF796A19506802002CFBC2 /* DiaryTests.m */; };
+		C2BF79841950685E002CFBC2 /* LYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF79771950685E002CFBC2 /* LYAppDelegate.m */; };
+		C2BF798719506896002CFBC2 /* LYDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF798619506896002CFBC2 /* LYDiaryViewController.m */; };
+		C2BF798A195068A7002CFBC2 /* LYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF7989195068A7002CFBC2 /* LYRootViewController.m */; };
+		C2BF798D195068CB002CFBC2 /* LYMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF798C195068CB002CFBC2 /* LYMemoryViewController.m */; };
+		C2BF7990195068EE002CFBC2 /* LYHourglassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF798F195068EE002CFBC2 /* LYHourglassViewController.m */; };
+		C2BF79931950691A002CFBC2 /* LYPrivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF79921950691A002CFBC2 /* LYPrivateViewController.m */; };
+		C2BF799619506999002CFBC2 /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF799519506999002CFBC2 /* LYTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2BF796219506802002CFBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BF793A19506802002CFBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BF794119506802002CFBC2;
+			remoteInfo = Diary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2BF794219506802002CFBC2 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BF794519506802002CFBC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2BF794719506802002CFBC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2BF794919506802002CFBC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2BF794D19506802002CFBC2 /* Diary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diary-Info.plist"; sourceTree = "<group>"; };
+		C2BF794F19506802002CFBC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2BF795119506802002CFBC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2BF795319506802002CFBC2 /* Diary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diary-Prefix.pch"; sourceTree = "<group>"; };
+		C2BF795719506802002CFBC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2BF795D19506802002CFBC2 /* DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BF795E19506802002CFBC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2BF796619506802002CFBC2 /* DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryTests-Info.plist"; sourceTree = "<group>"; };
+		C2BF796819506802002CFBC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2BF796A19506802002CFBC2 /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
+		C2BF79761950685E002CFBC2 /* LYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAppDelegate.h; sourceTree = "<group>"; };
+		C2BF79771950685E002CFBC2 /* LYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAppDelegate.m; sourceTree = "<group>"; };
+		C2BF798519506896002CFBC2 /* LYDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDiaryViewController.h; sourceTree = "<group>"; };
+		C2BF798619506896002CFBC2 /* LYDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDiaryViewController.m; sourceTree = "<group>"; };
+		C2BF7988195068A7002CFBC2 /* LYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRootViewController.h; sourceTree = "<group>"; };
+		C2BF7989195068A7002CFBC2 /* LYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRootViewController.m; sourceTree = "<group>"; };
+		C2BF798B195068CB002CFBC2 /* LYMemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMemoryViewController.h; sourceTree = "<group>"; };
+		C2BF798C195068CB002CFBC2 /* LYMemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMemoryViewController.m; sourceTree = "<group>"; };
+		C2BF798E195068EE002CFBC2 /* LYHourglassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHourglassViewController.h; sourceTree = "<group>"; };
+		C2BF798F195068EE002CFBC2 /* LYHourglassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHourglassViewController.m; sourceTree = "<group>"; };
+		C2BF79911950691A002CFBC2 /* LYPrivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPrivateViewController.h; sourceTree = "<group>"; };
+		C2BF79921950691A002CFBC2 /* LYPrivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPrivateViewController.m; sourceTree = "<group>"; };
+		C2BF799419506999002CFBC2 /* LYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarController.h; sourceTree = "<group>"; };
+		C2BF799519506999002CFBC2 /* LYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BF793F19506802002CFBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF794819506802002CFBC2 /* CoreGraphics.framework in Frameworks */,
+				C2BF794A19506802002CFBC2 /* UIKit.framework in Frameworks */,
+				C2BF794619506802002CFBC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BF795A19506802002CFBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF795F19506802002CFBC2 /* XCTest.framework in Frameworks */,
+				C2BF796119506802002CFBC2 /* UIKit.framework in Frameworks */,
+				C2BF796019506802002CFBC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2BF793919506802002CFBC2 = {
+			isa = PBXGroup;
+			children = (
+				C2BF794B19506802002CFBC2 /* Diary */,
+				C2BF796419506802002CFBC2 /* DiaryTests */,
+				C2BF794419506802002CFBC2 /* Frameworks */,
+				C2BF794319506802002CFBC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BF794319506802002CFBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF794219506802002CFBC2 /* Diary.app */,
+				C2BF795D19506802002CFBC2 /* DiaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BF794419506802002CFBC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF794519506802002CFBC2 /* Foundation.framework */,
+				C2BF794719506802002CFBC2 /* CoreGraphics.framework */,
+				C2BF794919506802002CFBC2 /* UIKit.framework */,
+				C2BF795E19506802002CFBC2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BF794B19506802002CFBC2 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF79741950685E002CFBC2 /* Classes */,
+				C2BF795719506802002CFBC2 /* Images.xcassets */,
+				C2BF794C19506802002CFBC2 /* Supporting Files */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		C2BF794C19506802002CFBC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF794D19506802002CFBC2 /* Diary-Info.plist */,
+				C2BF794E19506802002CFBC2 /* InfoPlist.strings */,
+				C2BF795119506802002CFBC2 /* main.m */,
+				C2BF795319506802002CFBC2 /* Diary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2BF796419506802002CFBC2 /* DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF796A19506802002CFBC2 /* DiaryTests.m */,
+				C2BF796519506802002CFBC2 /* Supporting Files */,
+			);
+			path = DiaryTests;
+			sourceTree = "<group>";
+		};
+		C2BF796519506802002CFBC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF796619506802002CFBC2 /* DiaryTests-Info.plist */,
+				C2BF796719506802002CFBC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2BF79741950685E002CFBC2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF79751950685E002CFBC2 /* AppDelegate */,
+				C2BF79781950685E002CFBC2 /* Gengeral */,
+				C2BF797C1950685E002CFBC2 /* Helpers */,
+				C2BF797D1950685E002CFBC2 /* macro */,
+				C2BF797E1950685E002CFBC2 /* Models */,
+				C2BF797F1950685E002CFBC2 /* Resoures */,
+				C2BF79801950685E002CFBC2 /* Scenes */,
+				C2BF79831950685E002CFBC2 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C2BF79751950685E002CFBC2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF79761950685E002CFBC2 /* LYAppDelegate.h */,
+				C2BF79771950685E002CFBC2 /* LYAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2BF79781950685E002CFBC2 /* Gengeral */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF79791950685E002CFBC2 /* Categaries */,
+				C2BF797A1950685E002CFBC2 /* ViewControllers */,
+				C2BF797B1950685E002CFBC2 /* Views */,
+			);
+			path = Gengeral;
+			sourceTree = "<group>";
+		};
+		C2BF79791950685E002CFBC2 /* Categaries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categaries;
+			sourceTree = "<group>";
+		};
+		C2BF797A1950685E002CFBC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2BF797B1950685E002CFBC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2BF797C1950685E002CFBC2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C2BF797D1950685E002CFBC2 /* macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macro;
+			sourceTree = "<group>";
+		};
+		C2BF797E1950685E002CFBC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2BF797F1950685E002CFBC2 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		C2BF79801950685E002CFBC2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF79811950685E002CFBC2 /* ViewControllers */,
+				C2BF79821950685E002CFBC2 /* Views */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C2BF79811950685E002CFBC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2BF7988195068A7002CFBC2 /* LYRootViewController.h */,
+				C2BF7989195068A7002CFBC2 /* LYRootViewController.m */,
+				C2BF798519506896002CFBC2 /* LYDiaryViewController.h */,
+				C2BF798619506896002CFBC2 /* LYDiaryViewController.m */,
+				C2BF798B195068CB002CFBC2 /* LYMemoryViewController.h */,
+				C2BF798C195068CB002CFBC2 /* LYMemoryViewController.m */,
+				C2BF798E195068EE002CFBC2 /* LYHourglassViewController.h */,
+				C2BF798F195068EE002CFBC2 /* LYHourglassViewController.m */,
+				C2BF79911950691A002CFBC2 /* LYPrivateViewController.h */,
+				C2BF79921950691A002CFBC2 /* LYPrivateViewController.m */,
+				C2BF799419506999002CFBC2 /* LYTabBarController.h */,
+				C2BF799519506999002CFBC2 /* LYTabBarController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2BF79821950685E002CFBC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2BF79831950685E002CFBC2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BF794119506802002CFBC2 /* Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BF796E19506802002CFBC2 /* Build configuration list for PBXNativeTarget "Diary" */;
+			buildPhases = (
+				C2BF793E19506802002CFBC2 /* Sources */,
+				C2BF793F19506802002CFBC2 /* Frameworks */,
+				C2BF794019506802002CFBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diary;
+			productName = Diary;
+			productReference = C2BF794219506802002CFBC2 /* Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2BF795C19506802002CFBC2 /* DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BF797119506802002CFBC2 /* Build configuration list for PBXNativeTarget "DiaryTests" */;
+			buildPhases = (
+				C2BF795919506802002CFBC2 /* Sources */,
+				C2BF795A19506802002CFBC2 /* Frameworks */,
+				C2BF795B19506802002CFBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BF796319506802002CFBC2 /* PBXTargetDependency */,
+			);
+			name = DiaryTests;
+			productName = DiaryTests;
+			productReference = C2BF795D19506802002CFBC2 /* DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BF793A19506802002CFBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = lanou3g;
+				TargetAttributes = {
+					C2BF795C19506802002CFBC2 = {
+						TestTargetID = C2BF794119506802002CFBC2;
+					};
+				};
+			};
+			buildConfigurationList = C2BF793D19506802002CFBC2 /* Build configuration list for PBXProject "Diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2BF793919506802002CFBC2;
+			productRefGroup = C2BF794319506802002CFBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BF794119506802002CFBC2 /* Diary */,
+				C2BF795C19506802002CFBC2 /* DiaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BF794019506802002CFBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF795019506802002CFBC2 /* InfoPlist.strings in Resources */,
+				C2BF795819506802002CFBC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BF795B19506802002CFBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF796919506802002CFBC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BF793E19506802002CFBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF795219506802002CFBC2 /* main.m in Sources */,
+				C2BF798A195068A7002CFBC2 /* LYRootViewController.m in Sources */,
+				C2BF7990195068EE002CFBC2 /* LYHourglassViewController.m in Sources */,
+				C2BF79931950691A002CFBC2 /* LYPrivateViewController.m in Sources */,
+				C2BF799619506999002CFBC2 /* LYTabBarController.m in Sources */,
+				C2BF798719506896002CFBC2 /* LYDiaryViewController.m in Sources */,
+				C2BF79841950685E002CFBC2 /* LYAppDelegate.m in Sources */,
+				C2BF798D195068CB002CFBC2 /* LYMemoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BF795919506802002CFBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BF796B19506802002CFBC2 /* DiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BF796319506802002CFBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BF794119506802002CFBC2 /* Diary */;
+			targetProxy = C2BF796219506802002CFBC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2BF794E19506802002CFBC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BF794F19506802002CFBC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2BF796719506802002CFBC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BF796819506802002CFBC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2BF796C19506802002CFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2BF796D19506802002CFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BF796F19506802002CFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "Diary/Diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2BF797019506802002CFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "Diary/Diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2BF797219506802002CFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diary.app/Diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DiaryTests/DiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2BF797319506802002CFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diary.app/Diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "DiaryTests/DiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BF793D19506802002CFBC2 /* Build configuration list for PBXProject "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BF796C19506802002CFBC2 /* Debug */,
+				C2BF796D19506802002CFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BF796E19506802002CFBC2 /* Build configuration list for PBXNativeTarget "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BF796F19506802002CFBC2 /* Debug */,
+				C2BF797019506802002CFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2BF797119506802002CFBC2 /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BF797219506802002CFBC2 /* Debug */,
+				C2BF797319506802002CFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BF793A19506802002CFBC2 /* Project object */;
+}
