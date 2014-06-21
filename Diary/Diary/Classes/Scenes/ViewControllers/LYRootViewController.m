@@ -7,13 +7,17 @@
 //
 
 #import "LYRootViewController.h"
-#import "LYMemoryViewController.h"
-#import "LYHourglassViewController.h"
-#import "LYDiaryViewController.h"
-#import "LYPrivateViewController.h"
-#import "LYTabBarController.h"
+//#import "LYMemoryViewController.h"
+//#import "LYHourglassViewController.h"
+//#import "LYDiaryViewController.h"
+//#import "LYPrivateViewController.h"
+//#import "LYTabBarController.h"
+#import "Header.h"
+
 
 @interface LYRootViewController ()
+
+
 
 @end
 
@@ -26,6 +30,7 @@
     }
     return self;
 }
+
 
 - (void)viewDidLoad
 {

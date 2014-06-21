@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B9BD3519513B370040A70A /* LYDiaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD3419513B370040A70A /* LYDiaryView.m */; };
+		C2B9BD3819513CBE0040A70A /* LYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD3719513CBE0040A70A /* LYHelper.m */; };
+		C2B9BD3B19515C800040A70A /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD3A19515C800040A70A /* LYBaseViewController.m */; };
+		C2B9BD4819516CE20040A70A /* lxyAlonePersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD3E19516CE20040A70A /* lxyAlonePersonModel.m */; };
+		C2B9BD4919516CE20040A70A /* lxyBackGroundImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD4119516CE20040A70A /* lxyBackGroundImageModel.m */; };
+		C2B9BD4A19516CE20040A70A /* lxyCommonDiaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD4419516CE20040A70A /* lxyCommonDiaryModel.m */; };
+		C2B9BD4B19516CE20040A70A /* lxySandTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD4719516CE20040A70A /* lxySandTimerModel.m */; };
+		C2B9BD5519516DEE0040A70A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B9BD5419516DEE0040A70A /* libsqlite3.dylib */; };
+		C2B9BD5A195170D40040A70A /* lxyFunctionOfDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD59195170D40040A70A /* lxyFunctionOfDataBase.m */; };
+		C2B9BD5D195170DD0040A70A /* lxyDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BD5C195170DD0040A70A /* lxyDataBase.m */; };
+		C2B9BDE119518D1E0040A70A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE019518D1E0040A70A /* Images.xcassets */; };
+		C2B9BDF11951928C0040A70A /* balloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE51951928C0040A70A /* balloon@2x.png */; };
+		C2B9BDF21951928C0040A70A /* choseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE61951928C0040A70A /* choseBtn@2x.png */; };
+		C2B9BDF31951928C0040A70A /* ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE71951928C0040A70A /* ok@2x.png */; };
+		C2B9BDF41951928C0040A70A /* plan_eat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE81951928C0040A70A /* plan_eat@2x.png */; };
+		C2B9BDF51951928C0040A70A /* plan_nature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDE91951928C0040A70A /* plan_nature@2x.png */; };
+		C2B9BDF61951928C0040A70A /* plan_plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDEA1951928C0040A70A /* plan_plane@2x.png */; };
+		C2B9BDF71951928C0040A70A /* plan_rest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDEB1951928C0040A70A /* plan_rest@2x.png */; };
+		C2B9BDF81951928C0040A70A /* plan_shopping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDEC1951928C0040A70A /* plan_shopping@2x.png */; };
+		C2B9BDF91951928C0040A70A /* plan_sports@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDED1951928C0040A70A /* plan_sports@2x.png */; };
+		C2B9BDFA1951928C0040A70A /* plan_structure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDEE1951928C0040A70A /* plan_structure@2x.png */; };
+		C2B9BDFB1951928C0040A70A /* plan_train@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDEF1951928C0040A70A /* plan_train@2x.png */; };
+		C2B9BDFC1951928C0040A70A /* plan_walk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B9BDF01951928C0040A70A /* plan_walk@2x.png */; };
+		C2B9BDFF19519C1D0040A70A /* LYSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BDFE19519C1D0040A70A /* LYSelectViewController.m */; };
 		C2BF794619506802002CFBC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794519506802002CFBC2 /* Foundation.framework */; };
 		C2BF794819506802002CFBC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794719506802002CFBC2 /* CoreGraphics.framework */; };
 		C2BF794A19506802002CFBC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794919506802002CFBC2 /* UIKit.framework */; };
 		C2BF795019506802002CFBC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BF794E19506802002CFBC2 /* InfoPlist.strings */; };
 		C2BF795219506802002CFBC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF795119506802002CFBC2 /* main.m */; };
-		C2BF795819506802002CFBC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BF795719506802002CFBC2 /* Images.xcassets */; };
 		C2BF795F19506802002CFBC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF795E19506802002CFBC2 /* XCTest.framework */; };
 		C2BF796019506802002CFBC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794519506802002CFBC2 /* Foundation.framework */; };
 		C2BF796119506802002CFBC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF794919506802002CFBC2 /* UIKit.framework */; };
@@ -38,6 +61,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2B9BD3319513B370040A70A /* LYDiaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDiaryView.h; sourceTree = "<group>"; };
+		C2B9BD3419513B370040A70A /* LYDiaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDiaryView.m; sourceTree = "<group>"; };
+		C2B9BD3619513CBE0040A70A /* LYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHelper.h; sourceTree = "<group>"; };
+		C2B9BD3719513CBE0040A70A /* LYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHelper.m; sourceTree = "<group>"; };
+		C2B9BD3919515C800040A70A /* LYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
+		C2B9BD3A19515C800040A70A /* LYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
+		C2B9BD3D19516CE20040A70A /* lxyAlonePersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxyAlonePersonModel.h; sourceTree = "<group>"; };
+		C2B9BD3E19516CE20040A70A /* lxyAlonePersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxyAlonePersonModel.m; sourceTree = "<group>"; };
+		C2B9BD4019516CE20040A70A /* lxyBackGroundImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxyBackGroundImageModel.h; sourceTree = "<group>"; };
+		C2B9BD4119516CE20040A70A /* lxyBackGroundImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxyBackGroundImageModel.m; sourceTree = "<group>"; };
+		C2B9BD4319516CE20040A70A /* lxyCommonDiaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxyCommonDiaryModel.h; sourceTree = "<group>"; };
+		C2B9BD4419516CE20040A70A /* lxyCommonDiaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxyCommonDiaryModel.m; sourceTree = "<group>"; };
+		C2B9BD4619516CE20040A70A /* lxySandTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxySandTimerModel.h; sourceTree = "<group>"; };
+		C2B9BD4719516CE20040A70A /* lxySandTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxySandTimerModel.m; sourceTree = "<group>"; };
+		C2B9BD5419516DEE0040A70A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C2B9BD58195170D40040A70A /* lxyFunctionOfDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxyFunctionOfDataBase.h; sourceTree = "<group>"; };
+		C2B9BD59195170D40040A70A /* lxyFunctionOfDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxyFunctionOfDataBase.m; sourceTree = "<group>"; };
+		C2B9BD5B195170DD0040A70A /* lxyDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxyDataBase.h; sourceTree = "<group>"; };
+		C2B9BD5C195170DD0040A70A /* lxyDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxyDataBase.m; sourceTree = "<group>"; };
+		C2B9BD5F195171E30040A70A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C2B9BDE019518D1E0040A70A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2B9BDE51951928C0040A70A /* balloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@2x.png"; sourceTree = "<group>"; };
+		C2B9BDE61951928C0040A70A /* choseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choseBtn@2x.png"; sourceTree = "<group>"; };
+		C2B9BDE71951928C0040A70A /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok@2x.png"; sourceTree = "<group>"; };
+		C2B9BDE81951928C0040A70A /* plan_eat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_eat@2x.png"; sourceTree = "<group>"; };
+		C2B9BDE91951928C0040A70A /* plan_nature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_nature@2x.png"; sourceTree = "<group>"; };
+		C2B9BDEA1951928C0040A70A /* plan_plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_plane@2x.png"; sourceTree = "<group>"; };
+		C2B9BDEB1951928C0040A70A /* plan_rest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_rest@2x.png"; sourceTree = "<group>"; };
+		C2B9BDEC1951928C0040A70A /* plan_shopping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_shopping@2x.png"; sourceTree = "<group>"; };
+		C2B9BDED1951928C0040A70A /* plan_sports@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_sports@2x.png"; sourceTree = "<group>"; };
+		C2B9BDEE1951928C0040A70A /* plan_structure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_structure@2x.png"; sourceTree = "<group>"; };
+		C2B9BDEF1951928C0040A70A /* plan_train@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_train@2x.png"; sourceTree = "<group>"; };
+		C2B9BDF01951928C0040A70A /* plan_walk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_walk@2x.png"; sourceTree = "<group>"; };
+		C2B9BDFD19519C1D0040A70A /* LYSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSelectViewController.h; sourceTree = "<group>"; };
+		C2B9BDFE19519C1D0040A70A /* LYSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSelectViewController.m; sourceTree = "<group>"; };
 		C2BF794219506802002CFBC2 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BF794519506802002CFBC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2BF794719506802002CFBC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +104,6 @@
 		C2BF794F19506802002CFBC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2BF795119506802002CFBC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2BF795319506802002CFBC2 /* Diary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diary-Prefix.pch"; sourceTree = "<group>"; };
-		C2BF795719506802002CFBC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2BF795D19506802002CFBC2 /* DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BF795E19506802002CFBC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2BF796619506802002CFBC2 /* DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryTests-Info.plist"; sourceTree = "<group>"; };
@@ -73,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B9BD5519516DEE0040A70A /* libsqlite3.dylib in Frameworks */,
 				C2BF794819506802002CFBC2 /* CoreGraphics.framework in Frameworks */,
 				C2BF794A19506802002CFBC2 /* UIKit.framework in Frameworks */,
 				C2BF794619506802002CFBC2 /* Foundation.framework in Frameworks */,
@@ -92,6 +150,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2B9BD3C19516CE20040A70A /* AlonePersonModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2B9BD3D19516CE20040A70A /* lxyAlonePersonModel.h */,
+				C2B9BD3E19516CE20040A70A /* lxyAlonePersonModel.m */,
+			);
+			path = AlonePersonModel;
+			sourceTree = "<group>";
+		};
+		C2B9BD3F19516CE20040A70A /* BackGroundImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2B9BD4019516CE20040A70A /* lxyBackGroundImageModel.h */,
+				C2B9BD4119516CE20040A70A /* lxyBackGroundImageModel.m */,
+			);
+			path = BackGroundImageModel;
+			sourceTree = "<group>";
+		};
+		C2B9BD4219516CE20040A70A /* CommonDiaryModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2B9BD4319516CE20040A70A /* lxyCommonDiaryModel.h */,
+				C2B9BD4419516CE20040A70A /* lxyCommonDiaryModel.m */,
+			);
+			path = CommonDiaryModel;
+			sourceTree = "<group>";
+		};
+		C2B9BD4519516CE20040A70A /* SandTimerModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2B9BD4619516CE20040A70A /* lxySandTimerModel.h */,
+				C2B9BD4719516CE20040A70A /* lxySandTimerModel.m */,
+			);
+			path = SandTimerModel;
+			sourceTree = "<group>";
+		};
+		C2B9BD57195170A00040A70A /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				C2B9BD5B195170DD0040A70A /* lxyDataBase.h */,
+				C2B9BD5C195170DD0040A70A /* lxyDataBase.m */,
+				C2B9BD58195170D40040A70A /* lxyFunctionOfDataBase.h */,
+				C2B9BD59195170D40040A70A /* lxyFunctionOfDataBase.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
 		C2BF793919506802002CFBC2 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +219,7 @@
 		C2BF794419506802002CFBC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BD5419516DEE0040A70A /* libsqlite3.dylib */,
 				C2BF794519506802002CFBC2 /* Foundation.framework */,
 				C2BF794719506802002CFBC2 /* CoreGraphics.framework */,
 				C2BF794919506802002CFBC2 /* UIKit.framework */,
@@ -125,8 +231,8 @@
 		C2BF794B19506802002CFBC2 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BDE019518D1E0040A70A /* Images.xcassets */,
 				C2BF79741950685E002CFBC2 /* Classes */,
-				C2BF795719506802002CFBC2 /* Images.xcassets */,
 				C2BF794C19506802002CFBC2 /* Supporting Files */,
 			);
 			path = Diary;
@@ -205,6 +311,8 @@
 		C2BF797A1950685E002CFBC2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BD3919515C800040A70A /* LYBaseViewController.h */,
+				C2B9BD3A19515C800040A70A /* LYBaseViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -219,6 +327,10 @@
 		C2BF797C1950685E002CFBC2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BD57195170A00040A70A /* DataBase */,
+				C2B9BD3619513CBE0040A70A /* LYHelper.h */,
+				C2B9BD3719513CBE0040A70A /* LYHelper.m */,
+				C2B9BD5F195171E30040A70A /* Header.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -233,6 +345,10 @@
 		C2BF797E1950685E002CFBC2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BD3C19516CE20040A70A /* AlonePersonModel */,
+				C2B9BD3F19516CE20040A70A /* BackGroundImageModel */,
+				C2B9BD4219516CE20040A70A /* CommonDiaryModel */,
+				C2B9BD4519516CE20040A70A /* SandTimerModel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +356,18 @@
 		C2BF797F1950685E002CFBC2 /* Resoures */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BDE51951928C0040A70A /* balloon@2x.png */,
+				C2B9BDE61951928C0040A70A /* choseBtn@2x.png */,
+				C2B9BDE71951928C0040A70A /* ok@2x.png */,
+				C2B9BDE81951928C0040A70A /* plan_eat@2x.png */,
+				C2B9BDE91951928C0040A70A /* plan_nature@2x.png */,
+				C2B9BDEA1951928C0040A70A /* plan_plane@2x.png */,
+				C2B9BDEB1951928C0040A70A /* plan_rest@2x.png */,
+				C2B9BDEC1951928C0040A70A /* plan_shopping@2x.png */,
+				C2B9BDED1951928C0040A70A /* plan_sports@2x.png */,
+				C2B9BDEE1951928C0040A70A /* plan_structure@2x.png */,
+				C2B9BDEF1951928C0040A70A /* plan_train@2x.png */,
+				C2B9BDF01951928C0040A70A /* plan_walk@2x.png */,
 			);
 			path = Resoures;
 			sourceTree = "<group>";
@@ -275,6 +403,8 @@
 		C2BF79821950685E002CFBC2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BD3319513B370040A70A /* LYDiaryView.h */,
+				C2B9BD3419513B370040A70A /* LYDiaryView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +412,8 @@
 		C2BF79831950685E002CFBC2 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				C2B9BDFD19519C1D0040A70A /* LYSelectViewController.h */,
+				C2B9BDFE19519C1D0040A70A /* LYSelectViewController.m */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -362,8 +494,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B9BDFC1951928C0040A70A /* plan_walk@2x.png in Resources */,
+				C2B9BDF61951928C0040A70A /* plan_plane@2x.png in Resources */,
+				C2B9BDFA1951928C0040A70A /* plan_structure@2x.png in Resources */,
 				C2BF795019506802002CFBC2 /* InfoPlist.strings in Resources */,
-				C2BF795819506802002CFBC2 /* Images.xcassets in Resources */,
+				C2B9BDFB1951928C0040A70A /* plan_train@2x.png in Resources */,
+				C2B9BDF51951928C0040A70A /* plan_nature@2x.png in Resources */,
+				C2B9BDF71951928C0040A70A /* plan_rest@2x.png in Resources */,
+				C2B9BDF11951928C0040A70A /* balloon@2x.png in Resources */,
+				C2B9BDF41951928C0040A70A /* plan_eat@2x.png in Resources */,
+				C2B9BDF31951928C0040A70A /* ok@2x.png in Resources */,
+				C2B9BDF21951928C0040A70A /* choseBtn@2x.png in Resources */,
+				C2B9BDF91951928C0040A70A /* plan_sports@2x.png in Resources */,
+				C2B9BDE119518D1E0040A70A /* Images.xcassets in Resources */,
+				C2B9BDF81951928C0040A70A /* plan_shopping@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,14 +526,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B9BD4819516CE20040A70A /* lxyAlonePersonModel.m in Sources */,
+				C2B9BD5D195170DD0040A70A /* lxyDataBase.m in Sources */,
 				C2BF795219506802002CFBC2 /* main.m in Sources */,
 				C2BF798A195068A7002CFBC2 /* LYRootViewController.m in Sources */,
 				C2BF7990195068EE002CFBC2 /* LYHourglassViewController.m in Sources */,
+				C2B9BD3B19515C800040A70A /* LYBaseViewController.m in Sources */,
+				C2B9BD4919516CE20040A70A /* lxyBackGroundImageModel.m in Sources */,
 				C2BF79931950691A002CFBC2 /* LYPrivateViewController.m in Sources */,
+				C2B9BD4B19516CE20040A70A /* lxySandTimerModel.m in Sources */,
 				C2BF799619506999002CFBC2 /* LYTabBarController.m in Sources */,
+				C2B9BD4A19516CE20040A70A /* lxyCommonDiaryModel.m in Sources */,
 				C2BF798719506896002CFBC2 /* LYDiaryViewController.m in Sources */,
 				C2BF79841950685E002CFBC2 /* LYAppDelegate.m in Sources */,
+				C2B9BD3519513B370040A70A /* LYDiaryView.m in Sources */,
+				C2B9BD3819513CBE0040A70A /* LYHelper.m in Sources */,
 				C2BF798D195068CB002CFBC2 /* LYMemoryViewController.m in Sources */,
+				C2B9BDFF19519C1D0040A70A /* LYSelectViewController.m in Sources */,
+				C2B9BD5A195170D40040A70A /* lxyFunctionOfDataBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +744,7 @@
 				C2BF797019506802002CFBC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BF797119506802002CFBC2 /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +753,7 @@
 				C2BF797319506802002CFBC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

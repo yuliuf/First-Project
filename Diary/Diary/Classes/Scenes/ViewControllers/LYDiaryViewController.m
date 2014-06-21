@@ -7,13 +7,25 @@
 //
 
 #import "LYDiaryViewController.h"
+#import "LYDiaryView.h"
+#import "LYAppDelegate.h"
+#import "LYSelectViewController.h"
 
 
 @interface LYDiaryViewController ()
 
+@property (nonatomic, strong) LYDiaryView *diaryView;
+
+//-(void)loadMenu;
+//-(void)btn;
+//-(void)tap:(id)sender;
+
 @end
 
-@implementation LYDiaryViewController
+@implementation LYDiaryViewController {
+//      __strong SGSelectViewController *_sg;
+//    UILabel *_iconLbl;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,18 +36,65 @@
     }
     return self;
 }
+-(void)loadView
+{
+    self.diaryView = [[LYDiaryView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.view = self.diaryView;
+}
+
 
 - (void)viewDidLoad
 {
+    
+//    _sg = [[SGSelectViewController alloc]init];
+//    
+//    [self loadMenu];
+//    [self btn];
+    
+//    
+//    LYAppDelegate *appDelegate;
+//    appDelegate = (LYAppDelegate*)[[UIApplication sharedApplication] delegate];
+//    appDelegate.selectBtn = self.diaryView.weatherBtn;
+    
+    
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor magentaColor];
-    UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"首页" style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonItemAction:)];
-    self.navigationItem.leftBarButtonItem = backBarButtonItem;
+    
+    [self.diaryView.weatherBtn addTarget:self action:@selector(weatherBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+ 
+    
+    
+}
+//-(void)loadMenu{
+//    
+//    [self.diaryView addSubview:_sg.view];
+//}
+//
+//-(void)tap:(id)sender{
+//    
+//    [_sg sgViewAppear];
+//}
+//-(void)btn{
+//    
+//    _selectBtn = [UIButton  buttonWithType:UIButtonTypeCustom];
+//    [_selectBtn setFrame:CGRectMake(100, 100, 44, 44)];
+//    [_selectBtn setBackgroundImage:[UIImage imageNamed:@"choseBtn.png"] forState:UIControlStateNormal];
+//    [_selectBtn addTarget:self action:@selector(tap:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:_selectBtn];
+//    
+//}
+
+- (void) weatherBtnAction:(UIButton *)sender
+{
+    LYSelectViewController *selectVC = [LYSelectViewController new];
+    selectVC.point = CGPointMake(MinX( _diaryView.weatherBtn.frame), MaxY( _diaryView.weatherBtn.frame) + 60);
+    [self.diaryView addSubview:selectVC.view];
+    
 }
 
-- (void)backBarButtonItemAction:(UIBarButtonItem *)sender
+- (void)buttonAction:(UIButton *)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    self.tabBarController.tabBar.hidden = YES;
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LYBaseViewController.h"
 
-@interface LYDiaryViewController : UIViewController
+@interface LYDiaryViewController : LYBaseViewController
+
+@property(nonatomic,weak)UIButton *selectBtn;
 
 @end

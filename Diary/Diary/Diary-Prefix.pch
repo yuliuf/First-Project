@@ -14,3 +14,15 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#import "LYHelper.h"
+
+#define kHeaderHeight 50
+#define Rect(x, y, w, h) CGRectMake(x, y, w, h)
+#define MaxY(x) CGRectGetMaxY(x)
+#define MaxX(x) CGRectGetMaxX(x)
+#define MinX(x) CGRectGetMinX(x)
+#define MinY(x) CGRectGetMinY(x)
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
